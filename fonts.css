@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Now-medium';
+    src: url('./FONT/NowAlt-Medium.otf');
+    font-weight: 500;
+    /* font-display: swap;*/
+}
+
+
+@font-face {
+    font-family: 'Now-ligth';
+    src: url(./FONT/Now-Light.otf);
+}
+
+@font-face {
+    font-family: 'Now-bold';
+    src: url('./FONT/Now-Bold.otf');
+    font-weight: 500;
+    /* font-display: swap;*/
+}
+
+/* Poppins Font */
+@font-face {
+    font-family: 'Poppins';
+    src: url('./FONT/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* Badhon Font */
+@font-face {
+    font-family: 'Badhon';
+    src: url('./FONT/FN Badhon Anmona Unicode.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Ruhul Font */
+@font-face {
+    font-family: 'Ruhul';
+    src: url('./FONT/Ruhul Amin Unicode.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Niladro Font */
+@font-face {
+    font-family: 'Niladro';
+    src: url('./FONT/Li Sirajee Sanjar Unicode.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Anilur Font */
+@font-face {
+    font-family: 'Anilur';
+    src: url('./FONT/Li Alinur Tatsama Unicode.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* LiShamimCholontika Font */
+@font-face {
+    font-family: 'LiShamimCholontika';
+    src: url('./FONT/LiNiladriRongtuliUnicode-Regular.ttf') format('truetype');
+    font-display: swap;
+}

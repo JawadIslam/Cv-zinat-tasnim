@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZINAT TASNIM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="preload" href="./FONT/Now-Bold.otf" as="font" type="font/otf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/Now-Light.otf" as="font" type="font/otf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/NowAlt-Medium.otf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/FN Badhon Anmona Unicode.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/Ruhul Amin Unicode.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/Li Sirajee Sanjar Unicode.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/Li Alinur Tatsama Unicode.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="./FONT/LiNiladriRongtuliUnicode-Regular.ttf" as="font" type="font/ttf"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="Dark-circle"></div>
+    <div id="loading-container">
+
+        <lord-icon src="https://cdn.lordicon.com/gkryirhd.json" trigger="loop" colors="primary:#163853"
+            style="width:20vh;height:20vh">
+        </lord-icon>
+
+    </div>
+
+    <div class="cv-container" id="display">
+
+        <button class="dropdown-button" onclick="toggleDropdown()"><ion-icon class="rotation"
+                name="chevron-down-circle-outline"></ion-icon></button>
+        <div class="dropdown-content">
+
+            <button class="section">
+                <ion-icon name="download-outline"></ion-icon>
+            </button>
+
+            <button class="section text-icon" id="cng-lang">
+                বাংলা
+            </button>
+
+            <button class="section" id="darkModeButton">
+                <ion-icon name="moon-outline"></ion-icon>
+            </button>
+
+        </div>
+
+
+
+        <div class="header">
+            <h1 class="bangla">
+                <span class="fbname" id="hb">জিনাত</span> <span class="lname">তাসনিম</span>
+            </h1>
+            <h1 class="english">
+                <span class="fname">ZINAT</span> <span class="lname">TASNIM</span>
+            </h1>
+        </div>
+
+
+        <div class="profile">
+            <div class="bar">
+                <lord-icon src="https://cdn.lordicon.com/lyrrgrsl.json" trigger="in" style="width:30px;height:30px">
+                </lord-icon>
+                <div class="title"><span class="english">PROFILE</span> <span class="bangla"
+                        id="section-title">পরিচয়</span></div>
+            </div>
+
+
+
+            <div class="info">
+                <span id="sub-title-en" class="english">Date of Barth </span>
+                <span id="info-en" class="english"> 10 May 1998</span>
+
+                <span id="sub-title-en" class="english">Blood group </span>
+                <span id="info-en" class="english">O+</span>
+
+                <span id="sub-title-en" class="english">Height </span>
+                <span id="info-en" class="english"> 5’2’’</span>
+
+                <span id="sub-title-en" class="english"> Religion</span>
+                <span id="info-en" class="english"> Islam</span>
+
+                <span id="sub-title-bn" class="bangla">জন্ম তারিখ </span>
+                <span id="info-bn" class="bangla"> ১০ ই মে ১৯৯৮</span>
+
+                <span id="sub-title-bn" class="bangla"> রক্তের গ্রুপ </span>
+                <span id="info-bn" class="bangla">ও পজেটিভ</span>
+
+                <span id="sub-title-bn" class="bangla">উচ্চতা </span>
+                <span id="info-bn" class="bangla"> ৫’২’’</span>
+
+                <span id="sub-title-bn" class="bangla"> ধর্ম</span>
+                <span id="info-bn" class="bangla"> ইসলাম</span>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="profile ">
+            <div class="bar">
+                <lord-icon src="https://cdn.lordicon.com/cnpvyndp.json" trigger="in" style="width:30px;height:30px">
+                </lord-icon>
+                <div class="title"><span class="english"> ADDRESS</span> <span class="bangla"
+                        id="section-title">ঠিকানা</span></div>
+            </div>
+
+
+            <div class="info ">
+                <span id="sub-title-en" class="english">Permanent Address</span>
+                <span id="info-en" class="english"> <b>Village :</b> Sahapur <b>P.O:</b>Jahangirabad <b>Upazilla :
+                    </b>Pirganj <b>District
+                        :</b>Rangpur</span>
+                <span id="sub-title-en" class="english">Present Address</span>
+                <span id="info-en" class="english">CRP Quarter | Shajalal uposohor | Sylhet</span>
+
+                <span id="sub-title-bn" class="bangla"> স্থায়ী ঠিকানা</span>
+                <span id="info-bn" class="bangla"> <b>গ্রাম :</b> সাহাপুর <b>পো : </b>জাহাঙ্গীরাবাদ <b>উপোজেলা : </b>
+                    পীরগঞ্জ <b> জেলা
+                        :</b> রংপুুর</span>
+                <span id="sub-title-bn" class="bangla">বর্তমান ঠিকানা</span>
+                <span id="info-bn" class="bangla">সি আর পি কোয়ার্টার | শাহাজালাল উপশহর| সিলেট</span>
+            </div>
+        </div>
+
+
+
+
+        <div class="main">
+            <div class="bar">
+                <lord-icon src="https://cdn.lordicon.com/zyzoecaw.json" trigger="in" loading="lazy"
+                    style="width:30px;height:30px">
+                </lord-icon>
+                <div class="title"> <span class="english">EDUCATION</span> <span class="bangla"
+                        id="section-title">শিক্ষাগত যোগ্যতা</span>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="line"></div>
+
+                <ul>
+                    <li>
+
+                        <div class="edu-text"><span class="circle"></span> <span class="english">Secondary School
+                                Certificate</span> <span class="bangla" id="section-title">
+                                মাধ্যমিক স্কুল সার্টিফিকেট</span></div>
+
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Year</span>
+                            <span id="sub-title-bn" class="bangla">সাল</span>
+                            <span id="info-en" class="english">2014</span>
+                            <span id="info-bn" class="bangla">২০১৪</span>
+                            <span id="sub-title-en" class="english">Institute</span>
+                            <span id="sub-title-bn" class="bangla">প্রতিষ্ঠান</span>
+                            <span id="info-en" class="english">Mohammadpur Girls High School</span>
+                            <span id="info-bn" class="bangla">মোহাম্মাদপুুর গার্লস হাই স্কুল</span>
+                        </div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="edu-text"><span class="circle"></span> <span class="english">Higher Secondary
+                                Certificate</span>
+                            <span class="bangla" id="section-title">উচ্চ মাধ্যমিক সার্টিফিকেট</span>
+                        </div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Year</span>
+                            <span id="sub-title-bn" class="bangla">সাল</span>
+                            <span id="info-en" class="english">2016</span>
+                            <span id="info-bn" class="bangla">২০১৬</span>
+                            <span id="sub-title-en" class="english">Institute</span>
+                            <span id="sub-title-bn" class="bangla">প্রতিষ্ঠান</span>
+                            <span id="info-en" class="english">Firoza Basher Ideal College</span>
+                            <span id="info-bn" class="bangla">ফিরোজা বাসার আইডিয়াল কলেজ</span>
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        <div class="edu-text"><span class="circle"></span> <span class="english">BSC in
+                                Physiotherapy</span>
+                            <span class="bangla" id="section-title">বি.এস.সি ইন ফিজিওথেরাপি</span>
+                        </div>
+
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Year</span>
+                            <span id="sub-title-bn" class="bangla">সাল</span>
+                            <span id="info-en" class="english">2022</span>
+                            <span id="info-bn" class="bangla">২০২২</span>
+                            <span id="sub-title-en" class="english">Institute</span>
+                            <span id="sub-title-bn" class="bangla">প্রতিষ্ঠান</span>
+
+                            <span id="info-en" class="english">Bangladesh Health Profession Institute |Medicine
+                                Faculty University of Dhaka</span>
+                            <span id="info-bn" class="bangla"> বাংলাদেশ হেলথ প্রফেশন ইনস্টিটিউট |
+                                ঢাকা বিশ্ববিদ্যালয়ের মেডিসিন অনুষদ</span>
+
+                            </span>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="edu-text"><span class="circle"></span> <span class="english">Internship</span>
+                            <span class="bangla" id="section-title">ইন্টার্নশিপ</span>
+                        </div>
+
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Year</span>
+                            <span id="sub-title-bn" class="bangla">সাল</span>
+                            <span id="info-en" class="english">2023</span>
+                            <span id="info-en" class="bangla">২০২৩</span>
+                            <span id="sub-title-en" class="english">Institute</span>
+                            <span id="sub-title-bn" class="bangla">প্রতিষ্ঠান</span>
+                            <span id="info-en" class="english">Center for the Rehabilitation of the Paralysed (CRP),
+                                Savar,Dhaka</span>
+                            <span id="info-bn" class="bangla"> পক্ষাঘাতগ্রস্ত পুনর্বাসন কেন্দ্র (সি আর পি),
+                                সাভার, ঢাকা</span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="bar">
+                <lord-icon id="icon" src="https://cdn.lordicon.com/ppyvfomi.json" trigger="in" target=".profile"
+                    style="width:30px;height:30px">
+                </lord-icon>
+                <div class="title"> <span class="english">WORK</span> <span class="bangla"
+                        id="section-title">পেশা</span></div>
+
+            </div>
+            <span id="paragraph"> <span class="english">Currently emploinfo-end as a clinical physiotherapist at CRP
+                    in Sylhet, fulfilling
+                    her
+                    professional duties.</span> <span class="bangla" id="paragraph-banglatext"> বর্তমানে সিলেটের
+                    সিআরপিতে একজন ক্লিনিক্যাল
+                    ফিজিওথেরাপিস্ট হিসেবে কর্মরত
+                </span></span>
+        </div>
+
+        <div class="main">
+            <div class="bar">
+                <lord-icon src="https://cdn.lordicon.com/kthelypq.json" trigger="in" loading="lazy"
+                    style="width:30px;height:30px">
+                </lord-icon>
+
+                <div class="title"> <span class="english">FAMILY BACKGROUND</span> <span class="bangla"
+                        id="section-title">পারিবারিক পরিচয়
+                    </span></div>
+            </div>
+
+
+
+            <div class="container">
+                <!-- <div class="line"></div> -->
+                <ul>
+                    <li>
+                        <div class="edu-text"><span class="circle"></span> <span class="english">Father</span> <span
+                                class="bangla" id="section-title">পিতা </span></div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Name</span>
+                            <span id="sub-title-bn" class="bangla">নাম</span>
+                            <span id="info-en" class="english">A.T.M Humaun Kabir (Tarek)</span>
+                            <span id="info-bn" class="bangla">এ টি এম হুমায়ুন কবির (তারেক)</span>
+
+
+                            <span id="sub-title-en" class="english">Ocupation</span>
+                            <span id="sub-title-bn" class="bangla">পেশা</span>
+                            <span id="info-en" class="english">Engineer at Dhaka PolliBidyut Samity-4 (BREB) Ghatarchor,
+                                Keranigonj,
+                                Dhaka.</span>
+                            <span id="info-bn" class="bangla">প্রকৌশলী, ঢাকা পল্লী বিদ্যুৎ সমিতি-৪ (বিআরইবি) ঘাটারচর,
+                                কেরানীগঞ্জ,
+                                ঢাকা</span>
+
+                        </div>
+
+                    </li>
+
+                    <li>
+
+                        <div class="edu-text"><span class="circle"></span><span class="english">Mother</span> <span
+                                class="bangla" id="section-title">মাতা</span></div>
+
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Name</span>
+                            <span id="sub-title-bn" class="bangla">নাম</span>
+                            <span id="info-en" class="english">Nilufa yeasmin</span>
+                            <span id="info-bn" class="bangla">নিলুফা ইয়াসমিন</span>
+
+
+                            <span id="sub-title-en" class="english">Ocupation</span>
+                            <span id="sub-title-bn" class="bangla">পেশা</span>
+                            <span id="info-en" class="english">Housewife</span>
+                            <span id="info-bn" class="bangla">গৃহিণী</span>
+
+                        </div>
+
+                    </li>
+
+
+                    <li>
+
+                        <div class="edu-text" id="icon"><span class="circle"></span><span class="english">Younger
+                                brother</span> <span class="bangla" id="section-title">ছোট ভাই</span></div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Name</span>
+                            <span id="sub-title-bn" class="bangla">নাম</span>
+                            <span id="info-en" class="english">Md.Jawad Fayek</span>
+                            <span id="info-bn" class="bangla">মোঃ জাওয়াদ ফায়িক</span>
+
+
+                            <span id="sub-title-en" class="english">Ocupation</span>
+                            <span id="sub-title-bn" class="bangla">পেশা</span>
+                            <span id="info-en" class="english">Student of World university of Bangladesh <b>|</b> 1st
+                                Year
+                                Department of
+                                computer science</span>
+                            <span id="info-bn" class="bangla">ওয়ার্ল্ড ইউনিভার্সিটি অব বাংলাদেশ <b>|</b> বিভাগের ১ম
+                                বর্ষের
+                                শিক্ষার্থী
+                                কম্পিউটার বিজ্ঞান</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+
+
+
+                        <div class="edu-text" id="icon"><span class="circle"></span> <span
+                                class="english">Paternal</span> <span class="bangla" id="section-title">পৈতৃক</span>
+                        </div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">Grand Father</span>
+                            <span id="sub-title-bn" class="bangla">দাদা</span>
+                            <span id="info-en" class="english">(Late) Abdul Hakim Prodhan</span>
+                            <span id="info-bn" class="bangla">(প্রয়াত) আব্দুল হাকিম প্রধান</span>
+
+                            <lord-icon src="https://cdn.lordicon.com/ppyvfomi.json" class="desktop-only" trigger="in"
+                                loading="lazy" style="width:30px;height:30px" colors="primary:#b4b4b4">
+                            </lord-icon>
+                            <span id="info-en" class="english">Ex-Chairman of 11no. Pachgasi UnionPorishod.</span>
+                            <span id="info-bn" class="bangla"> প্রাক্তন চেয়ারম্যান (১১নং পাঁচগাছি ইউনিয়ন ) </span>
+
+
+                            </span>
+                        </div>
+                        <div class="info">
+
+
+                            <span id="sub-title-en" class="english">Uncle</span>
+                            <span id="sub-title-bn" class="bangla">চাচা</span>
+                            <span id="info-en" class="english">(Late)Md Khairul Islam</span>
+                            <span id="info-bn" class="bangla">(প্রয়াত) মোঃ খায়রুল ইসলাম</span>
+
+                            <span class="support-column"></span>
+                            <span id="info-en" class="english">Business</span>
+                            <span id="info-bn" class="bangla">ব্যবসা </span>
+                        </div>
+                    </li>
+
+                    <li>
+
+                        <div class="edu-text" id="icon"><span class="circle"></span> <span
+                                class="english">Maternal</span> <span class="bangla" id="section-title">মাতৃক</span>
+                        </div>
+                        <div class="info">
+
+                            <span id="sub-title-en" class="english">Grand Father</span>
+                            <span id="sub-title-bn" class="bangla">নানা</span>
+                            <span id="info-en" class="english">Md. Nurul Islam</span>
+                            <span id="info-bn" class="bangla">মোঃ নুরুল ইসলাম</span>
+
+                            <lord-icon src="https://cdn.lordicon.com/ppyvfomi.json" class="desktop-only" trigger="in"
+                                loading="lazy" style="width:30px;height:30px" colors="primary:#b4b4b4">
+                            </lord-icon>
+                            <span id="info-en" class="english">Business Badargonj | Rangpur</span>
+                            <span id="info-bn" class="bangla">ব্যবসা বদরগঞ্জ | রংপুর</span>
+
+                        </div>
+                        <div class="info">
+
+                            <span id="sub-title-en" class="english">1.Uncle</span>
+                            <span id="sub-title-bn" class="bangla">১.মামা</span>
+                            <span id="info-en" class="english">Md Mehedi Hasan</span>
+                            <span id="info-bn" class="bangla">মোঃ মেহেদী হাসান</span>
+
+                            <span class="support-column"></span>
+                            <span id="info-en" class="english">Business Badargonj | Rangpur</span>
+                            <span id="info-bn" class="bangla">ব্যবসা বদরগঞ্জ | রংপুর</span>
+                        </div>
+
+                        <div class="info">
+
+                            <span id="sub-title-en" class="english">2.Uncle</span>
+                            <span id="sub-title-bn" class="bangla">২.মামা</span>
+                            <span id="info-en" class="english">Mejbaul Hasan</span>
+                            <span id="info-bn" class="bangla">মেজবাউল হাসান</span>
+
+                            <span class="support-column"></span>
+                            <span id="info-en" class="english">Business Badargonj | Rangpur</span>
+                            <span id="info-bn" class="bangla">ব্যবসা বদরগঞ্জ | রংপুর</span>
+
+                        </div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">3.Uncle</span>
+                            <span id="sub-title-bn" class="bangla">৩.মামা</span>
+                            <span id="info-en" class="english">Imrul Hasan</span>
+                            <span id="info-bn" class="bangla">ইমরুল হাসান</span>
+
+                            <span class="support-column"></span>
+                            <span id="info-en" class="english">Business Badargonj | Rangpur</span>
+                            <span id="info-bn" class="bangla">ব্যবসা বদরগঞ্জ | রংপুর</span>
+
+
+                        </div>
+                        <div class="info">
+                            <span id="sub-title-en" class="english">4.Uncle</span>
+                            <span id="sub-title-bn" class="bangla">৪.মামা</span>
+                            <span id="info-en" class="english">Md Mofakurul Hasan (Fizer)</span>
+                            <span id="info-bn" class="bangla">মোঃ মোফাকুরুল হাসান (ফিজার)</span>
+
+                            <span class="support-column"></span>
+                            <span id="info-en" class="english">Banker | Dutch Bangla Bank |
+                                Rangpur branch</span>
+                            <span id="info-bn" class="bangla">ব্যাংকার | ডাচ বাংলা ব্যাংক |
+                                রংপুর শাখা</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="bar">
+                <lord-icon src="https://cdn.lordicon.com/rsvfayfn.json" trigger="in" style="width:30px;height:30px">
+                </lord-icon>
+
+                <div class="title"> <span class="english">Contract</span> <span class="bangla"
+                        id="section-title">যোগাযোগ
+                    </span></div>
+                <div class="info">
+                    <span id="sub-title-en" class="english">Father</span>
+                    <span id="sub-title-bn" class="bangla">পিতা</span>
+
+                    <span id="info-en" class="english">01937029980</span>
+                    <span id="info-bn" class="bangla">০১৯৩৭০২৯৯৮০</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
