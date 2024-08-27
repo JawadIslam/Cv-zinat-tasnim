@@ -1,14 +1,16 @@
 
 var contentElement = document.getElementById('display');
 var loadingElement = document.getElementById('loading-container');
-contentElement.style.display = 'none';
-loadingElement.style.display = 'block';
+contentElement.style.visibility= 'hidden';
+loadingElement.style.visibility = 'visible';
 setTimeout(() => {
-      contentElement.style.display = 'block';
+      contentElement.style.visibility = 'visible';
 
-      loadingElement.style.display = 'none';
+      loadingElement.style.visibility= 'hidden';
 
 }, 2000);
+
+
 
 
 
